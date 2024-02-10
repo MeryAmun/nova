@@ -178,6 +178,7 @@ const Home = () => {
           <Link to="/explore" className='home__unravel-link'>Explore More</Link>
         </div>
       </div>
+      <div className="home__bottom-line"></div>
     </div>
   )
 }
