@@ -3,7 +3,7 @@ padding: 0px;
 margin: 0;
 /* border: 2px solid yellowgreen; */
 background-color: #000;
-/* overflow-x: hidden; */
+overflow-x: hidden;
 
 }
 .home__top-vectors{
@@ -33,7 +33,7 @@ background-image: url("/src/assets/images/bottom-ball.png");
     height: 65px;
     top:146px;
     left: -200px;
-    angle: -10.55 deg;
+   
     
 background-image: url("/src/assets/images/flash.png");  
 }
@@ -95,7 +95,7 @@ font-size: 30px;
 font-weight: 100;
 line-height: 45px;
 letter-spacing: 0em;
-text-align: left;
+
 color: #EFEFEF;
 ;
 
@@ -113,7 +113,7 @@ height: 1px;
     font-weight: bold;
     line-height: 106px;
     letter-spacing: 0em;
-    text-align: left;
+    
     color: #EFEFEF;
     
 }
@@ -161,7 +161,7 @@ color: #17181C;
     height: 135px;
     top: 105px;
     left: 401px;
-    angle: 45 deg;
+
     
 background-image: url("/src/assets/images/ball.png");
 }
@@ -171,7 +171,7 @@ background-image: url("/src/assets/images/ball.png");
     height: 65px;
     top:-205px;
     left: 341px;
-    angle: -10.55 deg;
+   
     
 background-image: url("/src/assets/images/flash.png");
 }
@@ -181,7 +181,7 @@ background-image: url("/src/assets/images/flash.png");
     height: 65px;
     top:-60px;
     left: 130px;
-    angle: -10.55 deg;
+   
     
 background-image: url("/src/assets/images/flash.png");
 }
@@ -192,7 +192,6 @@ height: 135px;
 top: 282px;
 left: 551px;
 border: 1px;
-angle: -180 deg;
 background-image: url("/src/assets/images/single-big-star.png");
 background-repeat: no-repeat;
 
@@ -204,8 +203,7 @@ background-repeat: no-repeat;
     top: 215px;
     left: 387px;
     border: 1px;
-    angle: -180 deg;
-angle: -180 deg;
+
 background-image: url("/src/assets/images/single-big-star.png");
 background-size: contain;
 background-repeat: no-repeat;
@@ -307,7 +305,7 @@ font-size: 60px;
 font-weight: 900;
 line-height: 91px;
 letter-spacing: 0em;
-text-align: left;
+
 
     background: -webkit-linear-gradient(90deg, #30EAA9 3.03%, #028BF3 79.83%),
     -webkit-linear-gradient(90deg, #30EAA9 50%, #028BF3 77.51%),
@@ -394,7 +392,7 @@ font-size: 30px;
 font-weight: 400;
 line-height: 38px;
 letter-spacing: 0em;
-text-align: left;
+
 
 }
 .home__about-vectors{
@@ -411,7 +409,7 @@ height: 57px;
 top: -101px;
 left: 1000px;
 border: 1px;
-    angle: -180 deg;
+
     background-image: url("/src/assets/images/roadmap-star.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -424,7 +422,6 @@ height: 25px;
 top: -88px;
 left: 980px;
  border: 1px; 
-angle: -180 deg;
 background-image: url("/src/assets/images/small-blue-star.png");
  background-size: contain;
  background-repeat: no-repeat;
@@ -455,7 +452,7 @@ font-size: 40px;
 font-weight: 900;
 line-height: 61px;
 letter-spacing: 0em;
-text-align: left;
+
 
 background: -webkit-linear-gradient(90deg, #30EAA9 3.03%, #028BF3 79.83%),
 -webkit-linear-gradient(90deg, #30EAA9 50%, #028BF3 77.51%),
@@ -554,7 +551,7 @@ padding: 20px;
     font-weight: 400;
     line-height: 45px;
     letter-spacing: 0em;
-    text-align: left;
+    
     color: #EFEFEF;
      
     
@@ -566,7 +563,7 @@ padding: 20px;
   height: 58px;
   top: -390px;
   left: 521px;
-  angle: 45 deg;
+
   
 background-image: url("/src/assets/images/big-ball.png");
  background-size: contain;
@@ -578,7 +575,7 @@ background-image: url("/src/assets/images/big-ball.png");
   height: 113px;
   top: -24px;
   left: -489px;
-  angle: 45 deg;
+
   
 background-image: url("/src/assets/images/big-ball.png");
  background-size: contain;
@@ -607,7 +604,7 @@ font-size: 60px;
 font-weight: 900;
 line-height: 91px;
 letter-spacing: 0em;
-text-align: left;
+
 color: #EFEFEF;
  
 }
@@ -627,7 +624,6 @@ color: #EFEFEF;
 height: 58.36px;
 top: 1890.27px;
 left: 1021px;
-angle: 45 deg;
 
 background: radial-gradient(75.09% 75.09% at 56.52% 5.43%, #0694EC 0%, rgba(7, 150, 234, 0.98) 1%, rgba(17, 170, 219, 0.75) 8%, rgba(25, 187, 206, 0.55) 15%, rgba(32, 201, 194, 0.38) 23%, rgba(38, 213, 185, 0.24) 31%, rgba(42, 222, 178, 0.14) 39%, rgba(45, 229, 173, 0.06) 47%, rgba(47, 233, 170, 0.01) 56%, rgba(48, 234, 169, 0) 66%) 
 
@@ -641,7 +637,11 @@ background: radial-gradient(75.09% 75.09% at 56.52% 5.43%, #0694EC 0%, rgba(7, 1
     gap: 10;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;  
+    padding: 60px 0;
+    margin-top: 20px;  
+}
+.home__roadmap-header{
+    padding: 35px 0;  
 }
 .home__roadmap-header h3{
     font-family: Nexa;
@@ -649,7 +649,7 @@ background: radial-gradient(75.09% 75.09% at 56.52% 5.43%, #0694EC 0%, rgba(7, 1
     font-weight: 900;
     line-height: 91px;
     letter-spacing: 0em;
-    text-align: left;
+    
 
     background: -webkit-linear-gradient(90deg, #30EAA9 3.03%, #028BF3 79.83%),
     -webkit-linear-gradient(90deg, #30EAA9 50%, #028BF3 77.51%),
@@ -660,9 +660,29 @@ background: radial-gradient(75.09% 75.09% at 56.52% 5.43%, #0694EC 0%, rgba(7, 1
 }
 .home__roadmap-container{
 width: 100%;
+display: flex;
+flex-direction: column;
+gap: 10;
+justify-content: center;
+align-items: center;
+padding: 40px 0; 
 
 }
-.home__roadmap-container-top{}
+.home__roadmap-container-top{
+    width: 40%;
+    margin-bottom: -45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.home__roadmap-container-bottom{
+    width: 100%;
+    margin-bottom: -45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
 .home__roadmap-container-image{
 width: 100%;
 height: 437px;
@@ -675,46 +695,51 @@ background-size: cover; */
     height: 100%;
     object-fit: contain;
 }
-.home__roadmap-container-bottom{}
+.home__roadmap-container-bottom{
+    margin-top: -45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.home__roadmap-container-bottom-title{
+    font-family: Nexa-Bold;
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.home__roadmap-container-bottom-title-two{
+    font-family: Nexa-Bold;
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin-right: 30px;
+
+}
 .home__roadmap-vectors{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin: 0;
     
 }
-.home__roadmap-flash{
-position: relative;
-width: 37px;
-height: 65px;
-top: -54px;
-left: -30px;
-angle: -10.55 deg;
-background-image: url("/src/assets/images/flash.png");
 
-}
-.home__roadmap-ball{
-    position: relative;
-    width: 184px;
-height: 184px;
-angle: 45 deg;
 
-    top: -0px;
-    left: 300px;
-    rotate: -10.55 deg;
-    background-image: url("/src/assets/images/ball.png");
-    background-size: cover;
-    background-position: bottom;
-
-}
 .home__roadmap-star{
     position: relative;
     width: 111px;
 height: 111px;
 border: 1px;
-angle: -180 deg;
-    top: -54px;
-    left: 388px;
+    top: 34px;
+    left: 205px;
     rotate: -10.55 deg;
     background-image: url("/src/assets/images/roadmap-star.png");
     background-size: cover;
@@ -724,28 +749,91 @@ angle: -180 deg;
 }
 
 .home__roadmap-flash-one{
+    position: relative;
+    width: 37px;
+    height: 65px;
+    top: -84px;
+    left: 230px;
+    background-image: url("/src/assets/images/flash.png")
+    
+    }
+    .home__roadmap-flash-two{
+        position: relative;
+    width: 37px;
+    height: 65px;
+        top: -761px;
+        left: 439.81px;
+        background-image: url("/src/assets/images/flash.png");
+      
+    }
+    .home__roadmap-flash-three{
+        position:relative;
+    width: 37px;
+height: 65px;
+top: -523px;
+left: 774px;
 
-}
+        background-image: url("/src/assets/images/flash.png");
+    }
 .home__roadmap-flash-four{
-
+    position:relative;
+    width: 38px;
+    height: 67px;
+    top: -424px;
+    left: -80px;
+   
+    background-image: url("/src/assets/images/flash.png");
+    
 }
-.home__roadmap-flash-three{
 
-}
-.home__roadmap-flash-two{
 
-}
 .home__roadmap-ball-one{
-
+    position:relative;
+    width: 112px;
+    height: 112px;
+top: -848px;
+left: 513px;
+    background-image: url("/src/assets/images/ball.png");
+    background-size: cover;
+    background-position: bottom;
+    z-index: 1;
+    
 }
 .home__roadmap-ball-two{
-
+    position:relative;
+    width: 112px;
+    height: 112px;
+    
+    top: 100px;
+    left: 432px;
+    background-image: url("/src/assets/images/ball.png");
+    background-size: cover;
+    background-position: bottom;
+  
+    
 }
 .home__roadmap-ball-three{
+    position:relative;
+    width: 112px;
+    height: 112px;
+top: -678px;
+left: -383px;
 
+    background-image: url("/src/assets/images/ball.png");
+    background-size: contain;
+    background-position: bottom;
 }
 .home__roadmap-planet{
+    position:relative;
+    width: 221px;
+    height: 244px;
+    top: -722px;
+    left: 316px;
 
+    background-image: url("/src/assets/images/globe-right.png");
+    background-size: cover;
+    background-position: bottom;
+    
 }
 
 .home__advantages-container{
@@ -803,7 +891,7 @@ font-size: 40px;
 font-weight: 900;
 line-height: 61px;
 letter-spacing: 0em;
-text-align: left;
+
 
 background: -webkit-linear-gradient(90deg, #30EAA9 3.03%, #028BF3 79.83%),
     -webkit-linear-gradient(90deg, #30EAA9 50%, #028BF3 77.51%),
