@@ -40,9 +40,6 @@ const Home = () => {
           </div>
         </div>
         <div className="home__hero-right">
-          <div className="home__hero-right-image">
-
-          </div>
         </div>
       </div>
       <div className="testnet__header-container">
@@ -132,10 +129,9 @@ const Home = () => {
         </div>
         <div className='home__roadmap-container'>
           <div className="home__roadmap-container-top">
-          <h5 className="home__roadmap-container-bottom-title">R&D nLRP <br />
-              Grant</h5>
-            <h5 className="home__roadmap-container-bottom-title-two" style={{display:"none"}}>Public <br />
-Testnet</h5>
+            <h5 className="home__roadmap-container-bottom-title">R&D nLRP</h5>
+            <h5 className="home__roadmap-container-bottom-title-two" style={{ display: "none" }}>Public <br />
+              Testnet</h5>
             <h5 className="home__roadmap-container-bottom-title">Mainnet</h5>
           </div>
           <div className="home__roadmap-container-image">
@@ -145,7 +141,7 @@ Testnet</h5>
             <h5 className="home__roadmap-container-bottom-title">Eth Foundation <br />
               Grant</h5>
             <h5 className="home__roadmap-container-bottom-title-two">Public <br />
-Testnet</h5>
+              Testnet</h5>
             <h5 className="home__roadmap-container-bottom-title">Puffer AVSs</h5>
           </div>
           <div className="home__roadmap-vectors">
@@ -166,6 +162,13 @@ Testnet</h5>
       <div className="home__advantages-container">
         <div className="home__advantages">
           <img src={token} alt="" />
+        </div>
+        <div className="advantages__vectors">
+          <div className="advantages__ball"></div>
+          <div className="advantages__flash-one"></div>
+          <div className="advantages__flash-two"></div>
+          <div className="advantages__small-star"></div>
+          <div className="advantages__big-star"></div>
         </div>
       </div>
       <div className="home__unravel">
